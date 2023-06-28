@@ -1,4 +1,2 @@
 FROM amazonlinux
-WORKDIR /usr/src/app
-RUN yum install git
-EXPOSE 8080
+RUN yum install -y git
